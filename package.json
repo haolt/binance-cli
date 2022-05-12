@@ -1,0 +1,22 @@
+{
+  "name": "binance",
+  "version": "1.0.0",
+  "description": "Binance CLI",
+  "main": "index.js",
+  "type": "module",
+  "bin": "./bin/binance.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --trace-warnings ./bin/binance.js"
+  },
+  "author": "Hao Le - Make It Awesome | https://haodev.wordpress.com",
+  "license": "ISC",
+  "dependencies": {
+    "ccxt": "^1.81.80",
+    "chalk": "^5.0.1",
+    "commander": "^9.2.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.4",
+    "prompt-confirm": "^2.0.4"
+  }
+}
